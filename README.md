@@ -10,16 +10,23 @@ This plugin is simply no-op, always return granted and make no request to user, 
 
 
 ## How to use
+- Add to your projects `pubspec.yaml`
+  ```yaml
+  dependencies:
+    permission_handler: ^10.0.0
+    permission_handler_web: ^0.0.2
+  ```
 
-1. Clone this repo and place it in some directory you like (`<<DIR_TO_PLUGIN>>`)
+- Or do it manually
+  1. Clone this repo and place it in some directory you like (`<<DIR_TO_PLUGIN>>`)
 
-2. Then in your projects `pubspec.yaml`
+  2. Then in your projects `pubspec.yaml`
 
-```yaml
-dependencies:
-  permission_handler: ^10.0.0
-  permission_handler_web:
-    path: <<DIR_TO_PLUGIN>>
-```
+  ```yaml
+  dependencies:
+    permission_handler: ^10.0.0
+    permission_handler_web:
+      path: <<DIR_TO_PLUGIN>>
+  ```
 
 That's all.
